@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3139201571",
+    "hash" : "0",
     "id" : "554C1C16",
     "lastKnownWriteTime" : 1561841153,
     "last_content_update" : 1561841153,
     "path" : "C:/Users/hp/Dropbox/DOUTORADO/Analise de noticias/Busca em tamoio news _ 26 de maio.R",
     "project_path" : null,
     "properties" : {
+        "cursorPosition" : "54,73",
+        "scrollLine" : "35"
     },
     "relative_order" : 2,
     "source_on_save" : false,

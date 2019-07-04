@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562262113562.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "184C99B8",
+    "lastKnownWriteTime" : 1562262247,
+    "last_content_update" : 1562262247381,
+    "path" : "~/GitHub/analisedocumentos_atas_APAMLN/noticias/grafico noticias.R",
+    "project_path" : "noticias/grafico noticias.R",
+    "properties" : {
+        "cursorPosition" : "9,7",
+        "scrollLine" : "7"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
