@@ -7,16 +7,16 @@
     "folds" : "",
     "hash" : "0",
     "id" : "554C1C16",
-    "lastKnownWriteTime" : 1561841153,
-    "last_content_update" : 1561841153,
-    "path" : "C:/Users/hp/Dropbox/DOUTORADO/Analise de noticias/Busca em tamoio news _ 26 de maio.R",
-    "project_path" : null,
+    "lastKnownWriteTime" : 1562262848,
+    "last_content_update" : 1562262848689,
+    "path" : "~/GitHub/analisedocumentos_atas_APAMLN/noticias/Busca em tamoio news _ maio.R",
+    "project_path" : "noticias/Busca em tamoio news _ maio.R",
     "properties" : {
-        "cursorPosition" : "54,73",
-        "scrollLine" : "35"
+        "cursorPosition" : "13,42",
+        "scrollLine" : "0"
     },
     "relative_order" : 2,
-    "source_on_save" : false,
+    "source_on_save" : true,
     "source_window" : "",
     "type" : "r_source"
 }
