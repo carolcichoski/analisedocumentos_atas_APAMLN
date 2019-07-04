@@ -1,0 +1,153 @@
+---
+title: "Análises doutorado Caroline"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+```
+# Análises de atas de 2009
+
+
+
+
+Instalar pacotes:
+
+```{r}
+#install.packages("devtools")
+#require(devtools)
+#install_github("lchiffon/wordcloud2")
+#install.packages("readtext", dependencies = TRUE)
+#install.packages("tm", dependencies = TRUE)
+#install.packages("tidytext", dependencies = TRUE)
+#install webshot
+#install.packages("webshot")
+#webshot::install_phantomjs()
+```
+
+Carregar pacotes:
+
+```{r}
+library(readtext)
+library(magrittr)
+library(stringr)
+library(tm)
+library(dplyr)
+library(tidytext)
+library(ggplot2)
+library(wordcloud2)
+library(webshot)
+library(htmlwidgets)
+```
+
+
+Importar arquivos das atas:
+```{r}
+# Importar arquivos das atas por ano:
+atas2009 <-readtext(paste0("atas/2009"))
+
+# Padronizar a codificação de caracteres para UTF-8:
+
+atas2009 <- iconv(atas2009, from="windows-1252", to="UTF-8")
+```
+
+Limpar o vetor: tirar números, pontuações, etc.
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+
+atas2009_limpa <- atas2009 %>%   
+  paste(atas2009,collapse = " ") %>%  
+  removeNumbers() %>%   
+  removePunctuation() %>%
+  str_remove_all("\r") %>%    
+  str_remove_all("\n") %>%   
+  str_to_lower() %>%   
+  stripWhitespace()
+
+```
+
+Transformar em dataframe:
+```{r}
+
+atas2009df <- data_frame(id_discurso = 1:length(atas2009_limpa), 
+                          text = atas2009_limpa)  
+
+
+atas_2009 <- atas2009df %>%
+  unnest_tokens(word, text)
+
+```
+
+Limpar o texto: 
+```{r}
+
+stopwords_pt <- c(stopwords("pt"), "que", "porque", "vai",
+                  "aqui", "sobre", "assim", "etc","pois", "desse", "ainda", 
+                  "então", "gente", "ser", "de", "lá", "acho", "ter", "sim", 
+                  "coisa", "fazer", "litoral","centro", "norte", 
+                  "reunião", "apa", "marinha", "plano", "gt", "rua", "diz", "ff", "é", "º", "atas", 
+                "cg", "falou", "apresentação", "dia", "sugere", "todos", "deve", "propôs", "r", "ata")
+
+
+stopwords_pt_df <- data.frame(word = stopwords_pt)
+
+atas_2009 <-atas_2009 %>%
+  anti_join(stopwords_pt_df, by = "word")   
+  
+  atas_2009$word <- str_to_title(atas_2009$word) 
+
+```
+Exportar as 15 palavras mais citadas em um arquivo csv:
+```{r}
+atas_2009 %>%
+     count(word, sort = TRUE) %>%
+  top_n(15) %>% 
+  mutate(word = reorder(word, n)) %>% write.csv2(file = "palavras/2009.csv")
+```
+
+
+Criar um gráfico de frequência de palavras:
+
+```{r}
+atas_2009 %>%
+     count(word, sort = TRUE) %>%
+  top_n(15) %>% 
+  mutate(word = reorder(word, n)) %>%
+  ggplot()+
+  geom_col(aes(word, n),colour="black", fill= "white") +
+  xlab(NULL) +
+  coord_flip() +
+  theme_minimal()+
+  labs(
+    y="Frequência das palavras", x= "Palavras", title = "Gráfico de frequência de Palavras Atas 2009")+
+  theme(plot.title = element_text(hjust = 0.5))
+  ggsave("graficos/frequencia2009.png", dpi = 300)
+```
+
+Fazendo nuvem de palavras
+```{r}
+nuvem2009 <- atas_2009 %>%  count(word, sort = T) %>% filter(n > 20) %>% top_n(180)
+
+# Criar a nuvem de palavras
+wordcloud_2009 <- wordcloud2(nuvem2009, size=.5, color="random-dark", shuffle = FALSE, shape="circle")
+# Salvar em HTML
+saveWidget(wordcloud_2009 ,"2009.html",selfcontained = F)
+# Salvar em PNG
+webshot("2009.html","wordcloud/nuvem2009.png")
+#, delay =5, vwidth = 480, vheight=480
+```
+
+
+Próximas etapas:
+- Contagem de palavras - detect do conjunto das palavras 
+- gráfico de conexao de palavras
+
+Contando palavras
+```{r}
+#Encontrando palavras específicas
+library(stringr)
+str_detect (atas_2009, "poluição")
+str_count(atas_2009, "poluição")
+ 
+```
+
+

@@ -1,0 +1,131 @@
+﻿ano;palavra;contagem
+2009;Esgoto; 20
+2010;Esgoto;  9
+2011;Esgoto;  4
+2012;Esgoto;  7
+2013;Esgoto;  1
+2014;Esgoto;  5
+2015;Esgoto;  4
+2016;Esgoto;  2
+2017;Esgoto;  1
+2018;Esgoto;  7
+2009;Clima;  0
+2010;Clima;  1
+2011;Clima;  0
+2012;Clima;  1
+2013;Clima;  5
+2014;Clima;  7
+2015;Clima;  2
+2016;Clima;  2
+2017;Clima;  1
+2018;Clima;  0
+2009;Lixo; 18
+2010;Lixo;  8
+2011;Lixo; 16
+2012;Lixo; 15
+2013;Lixo; 28
+2014;Lixo; 11
+2015;Lixo; 25
+2016;Lixo;  3
+2017;Lixo; 15
+2018;Lixo;  2
+2009;Atividade portuária; 10
+2010;Atividade portuária;  8
+2011;Atividade portuária; 70
+2012;Atividade portuária; 26
+2013;Atividade portuária; 22
+2014;Atividade portuária; 64
+2015;Atividade portuária;157
+2016;Atividade portuária; 58
+2017;Atividade portuária;  2
+2018;Atividade portuária; 14
+2009;Crescimento costeiro;  0
+2010;Crescimento costeiro;  0
+2011;Crescimento costeiro;  0
+2012;Crescimento costeiro;  0
+2013;Crescimento costeiro;  0
+2014;Crescimento costeiro;  1
+2015;Crescimento costeiro;  1
+2016;Crescimento costeiro;  0
+2017;Crescimento costeiro;  0
+2018;Crescimento costeiro;  0
+2009;Atividade petrolífera; 20
+2010;Atividade petrolífera; 34
+2011;Atividade petrolífera; 60
+2012;Atividade petrolífera;126
+2013;Atividade petrolífera; 84
+2014;Atividade petrolífera;261
+2015;Atividade petrolífera; 67
+2016;Atividade petrolífera;106
+2017;Atividade petrolífera; 12
+2018;Atividade petrolífera; 43
+2009;Circulação de embarcações; 28
+2010;Circulação de embarcações; 11
+2011;Circulação de embarcações; 52
+2012;Circulação de embarcações; 56
+2013;Circulação de embarcações; 46
+2014;Circulação de embarcações;114
+2015;Circulação de embarcações; 87
+2016;Circulação de embarcações; 71
+2017;Circulação de embarcações; 26
+2018;Circulação de embarcações; 32
+2009;Vazamento de óleo;  9
+2010;Vazamento de óleo;  4
+2011;Vazamento de óleo; 11
+2012;Vazamento de óleo; 36
+2013;Vazamento de óleo; 26
+2014;Vazamento de óleo;105
+2015;Vazamento de óleo; 16
+2016;Vazamento de óleo;  9
+2017;Vazamento de óleo;  7
+2018;Vazamento de óleo; 12
+2009;Pesca predatória;  3
+2010;Pesca predatória;  1
+2011;Pesca predatória;  1
+2012;Pesca predatória;  2
+2013;Pesca predatória;  3
+2014;Pesca predatória;  0
+2015;Pesca predatória;  4
+2016;Pesca predatória; 17
+2017;Pesca predatória;  4
+2018;Pesca predatória;  6
+2009;Setor industrial;  4
+2010;Setor industrial;  4
+2011;Setor industrial;  1
+2012;Setor industrial;  1
+2013;Setor industrial;  8
+2014;Setor industrial;  1
+2015;Setor industrial;  6
+2016;Setor industrial; 24
+2017;Setor industrial;  4
+2018;Setor industrial;  7
+2009;População flutuante; 17
+2010;População flutuante; 11
+2011;População flutuante; 11
+2012;População flutuante; 26
+2013;População flutuante;  3
+2014;População flutuante;  6
+2015;População flutuante; 15
+2016;População flutuante; 80
+2017;População flutuante; 14
+2018;População flutuante; 15
+2009;Ineficácia de gestão;  0
+2010;Ineficácia de gestão;  0
+2011;Ineficácia de gestão;  0
+2012;Ineficácia de gestão;  1
+2013;Ineficácia de gestão;  0
+2014;Ineficácia de gestão;  0
+2015;Ineficácia de gestão;  0
+2016;Ineficácia de gestão;  0
+2017;Ineficácia de gestão;  0
+2018;Ineficácia de gestão;  0
+2009;Consciência ambiental;  9
+2010;Consciência ambiental;  4
+2011;Consciência ambiental;  1
+2012;Consciência ambiental; 10
+2013;Consciência ambiental;  9
+2014;Consciência ambiental;  5
+2015;Consciência ambiental; 21
+2016;Consciência ambiental;  5
+2017;Consciência ambiental; 11
+2018;Consciência ambiental;  1

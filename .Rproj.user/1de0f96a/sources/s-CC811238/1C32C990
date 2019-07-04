@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1545140746854.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2122361327",
+    "id" : "1C32C990",
+    "lastKnownWriteTime" : 1545163663,
+    "last_content_update" : 1545163663314,
+    "path" : "~/Dropbox/carol_lista/analises.Rmd",
+    "project_path" : "analises.Rmd",
+    "properties" : {
+        "cursorPosition" : "385,1",
+        "scrollLine" : "381",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

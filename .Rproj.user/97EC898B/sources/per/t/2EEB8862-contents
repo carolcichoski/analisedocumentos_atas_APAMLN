@@ -1,0 +1,496 @@
+---
+title: "Untitled"
+author: "Beatriz MIlz"
+date: "18 de dezembro de 2018"
+output: html_document
+---
+```{r}
+library(readtext)
+library(stringr)
+library(tidyverse)
+```
+
+```{r}
+atas2009 <-readtext(paste0("atas/Atas 2009 txt")) %>% 
+  iconv(from="windows-1252", to="UTF-8") %>%   str_to_lower()
+
+atas2010 <-readtext(paste0("atas/Atas 2010 txt")) %>% 
+  iconv(from="windows-1252", to="UTF-8") %>%   str_to_lower()
+
+atas2011 <-readtext(paste0("atas/Atas 2011 txt")) %>% 
+  iconv(from="windows-1252", to="UTF-8") %>%   str_to_lower()
+
+atas2012 <-readtext(paste0("atas/Atas 2012 txt")) %>% 
+  iconv(from="windows-1252", to="UTF-8") %>%   str_to_lower()
+
+atas2013 <-readtext(paste0("atas/Atas 2013 txt")) %>% 
+  iconv(from="windows-1252", to="UTF-8") %>%   str_to_lower()
+
+atas2014 <-readtext(paste0("atas/Atas 2014 txt")) %>% 
+  iconv(from="windows-1252", to="UTF-8") %>%   str_to_lower()
+
+atas2015 <-readtext(paste0("atas/Atas 2015 txt")) %>% 
+  iconv(from="windows-1252", to="UTF-8") %>%   str_to_lower()
+
+atas2016 <-readtext(paste0("atas/Atas 2016 txt")) %>% 
+  iconv(from="windows-1252", to="UTF-8") %>%   str_to_lower()
+
+atas2017 <-readtext(paste0("atas/Atas 2017 txt")) %>% 
+  iconv(from="windows-1252", to="UTF-8") %>%   str_to_lower()
+
+atas2018 <-readtext(paste0("atas/Atas 2018 txt")) %>% 
+  iconv(from="windows-1252", to="UTF-8") %>%   str_to_lower()
+
+
+```
+
+```{r}
+palavras_esgoto <- c("falta de tratamento de esgoto|esgoto|resíduo domiciliar|esgotamento|esgotos")
+
+palavras_clima <- c("clima|climático|climáticas|mudanças climáticas|mudança de temperatura|elevação do nível do mar|mudança de chuva|temperatura|seca|estiagem")
+
+palavras_lixo <- c("lixo na praia|lixo nas praias|lixo na areia|lixo|lixos|resíduo sólido|resíduos|plástico|lixo no mar|reciclado|reciclável|recicláveis")
+
+palavras_atividadesportuarias <- c("atividades portuárias|atividades portuarias|atividade portuária|atividade portuaria|porto|expansão do porto|expansao do porto|docas")
+
+palavras_crescimento_costeiro <- c("crescimento costeiro|expansão costeira|ocupação urbana|expansão urbana|ocupação costeira|malha urbana|ocupação das praias")
+
+palavras_atividade_petrolifera <- c("atividades petrolíferas|atividade petrolifera|tebar|petróleo|pré sal|pré-sal|pre sal|petrobrás|petrobras|dutos|duto" )
+
+palavras_circulacao_de_embarcacoes <- c("barcos|barco|iates|navios|navio|ciculação de embarção|circulações de embarcações|embarcações|embarcação")
+
+palavras_vazamento_de_oleo <-c("vazamento de óleo|óleo|mancha de óleo|oleo|derramamento")
+
+palavras_pesca_predatoria <- c("excesso pesca|sobre pesca|sobrepesca|pesca industrial|pescas industriais|pesca predatória|pesca predatoria")
+
+palavras_setor_industrial <- c("atividade industrial|atividades industriais|industria|industrias")
+
+palavras_populacao_flutuante <-c("excesso de turismo|população flutuante|turistas|turismo")
+
+palavras_ineficacia_de_gestao <- c("ausência de gestão|falta de gestão| ausência de gestao|problemas de gestão|gestão ruim|má gestão|má administração|ineficiência de gestão")
+
+palavras_consciencia_ambiental <- c("educação ambiental|consciência ambiental|conscientização ambiental")
+```
+
+
+```{r}
+#Encontrando palavras específicas
+# palavras_esgoto
+palavras_esgoto_2009 <- str_count(atas2009, palavras_esgoto) %>% sum()
+
+palavras_esgoto_2010 <- str_count(atas2010, palavras_esgoto) %>% sum()
+
+palavras_esgoto_2011 <- str_count(atas2011, palavras_esgoto) %>% sum()
+
+palavras_esgoto_2012 <- str_count(atas2012, palavras_esgoto) %>% sum()
+
+palavras_esgoto_2013 <- str_count(atas2013, palavras_esgoto) %>% sum()
+
+palavras_esgoto_2014 <- str_count(atas2014, palavras_esgoto) %>% sum()
+
+palavras_esgoto_2015 <- str_count(atas2015, palavras_esgoto) %>% sum()
+
+palavras_esgoto_2016 <- str_count(atas2016, palavras_esgoto) %>% sum()
+
+palavras_esgoto_2017 <- str_count(atas2017, palavras_esgoto) %>% sum()
+ 
+palavras_esgoto_2018 <- str_count(atas2018, palavras_esgoto) %>% sum()
+ 
+
+#palavras clima
+
+palavras_clima_2009 <- str_count(atas2009, palavras_clima) %>% sum()
+
+palavras_clima_2010 <- str_count(atas2010, palavras_clima) %>% sum()
+
+palavras_clima_2011 <- str_count(atas2011, palavras_clima) %>% sum()
+
+palavras_clima_2012 <- str_count(atas2012, palavras_clima) %>% sum()
+
+palavras_clima_2013 <- str_count(atas2013, palavras_clima) %>% sum()
+
+palavras_clima_2014 <- str_count(atas2014, palavras_clima) %>% sum()
+
+palavras_clima_2015 <- str_count(atas2015, palavras_clima) %>% sum()
+
+palavras_clima_2016 <- str_count(atas2016, palavras_clima) %>% sum()
+
+palavras_clima_2017 <- str_count(atas2017, palavras_clima) %>% sum()
+
+palavras_clima_2018 <- str_count(atas2018, palavras_clima) %>% sum()
+
+
+#palavras lixo
+
+palavras_lixo_2009 <- str_count(atas2009, palavras_lixo) %>% sum()
+
+palavras_lixo_2010 <- str_count(atas2010, palavras_lixo) %>% sum()
+
+palavras_lixo_2011 <- str_count(atas2011, palavras_lixo) %>% sum()
+
+palavras_lixo_2012 <- str_count(atas2012, palavras_lixo) %>% sum()
+
+palavras_lixo_2013 <- str_count(atas2013, palavras_lixo) %>% sum()
+
+palavras_lixo_2014 <- str_count(atas2014, palavras_lixo) %>% sum()
+
+palavras_lixo_2015 <- str_count(atas2015, palavras_lixo) %>% sum()
+
+palavras_lixo_2016 <- str_count(atas2016, palavras_lixo) %>% sum()
+
+palavras_lixo_2017 <- str_count(atas2017, palavras_lixo) %>% sum()
+
+palavras_lixo_2018 <- str_count(atas2018, palavras_lixo) %>% sum()
+
+#palavras atividadesportuarias
+
+palavras_atividadesportuarias_2009 <- str_count(atas2009, palavras_atividadesportuarias) %>% sum()
+
+palavras_atividadesportuarias_2010 <- str_count(atas2010, palavras_atividadesportuarias) %>% sum()
+
+palavras_atividadesportuarias_2011 <- str_count(atas2011, palavras_atividadesportuarias) %>% sum()
+
+palavras_atividadesportuarias_2012 <- str_count(atas2012, palavras_atividadesportuarias) %>% sum()
+
+palavras_atividadesportuarias_2013 <- str_count(atas2013, palavras_atividadesportuarias) %>% sum()
+
+palavras_atividadesportuarias_2014 <- str_count(atas2014, palavras_atividadesportuarias) %>% sum()
+
+palavras_atividadesportuarias_2015 <- str_count(atas2015, palavras_atividadesportuarias) %>% sum()
+
+palavras_atividadesportuarias_2016 <- str_count(atas2016, palavras_atividadesportuarias) %>% sum()
+
+palavras_atividadesportuarias_2017 <- str_count(atas2017, palavras_atividadesportuarias) %>% sum()
+
+palavras_atividadesportuarias_2018 <- str_count(atas2018, palavras_atividadesportuarias) %>% sum()
+
+
+#palavras crescimento_costeiro
+
+palavras_crescimento_costeiro_2009 <- str_count(atas2009, palavras_crescimento_costeiro) %>% sum()
+
+palavras_crescimento_costeiro_2010 <- str_count(atas2010, palavras_crescimento_costeiro) %>% sum()
+
+palavras_crescimento_costeiro_2011 <- str_count(atas2011, palavras_crescimento_costeiro) %>% sum()
+
+palavras_crescimento_costeiro_2012 <- str_count(atas2012, palavras_crescimento_costeiro) %>% sum()
+
+palavras_crescimento_costeiro_2013 <- str_count(atas2013, palavras_crescimento_costeiro) %>% sum()
+
+palavras_crescimento_costeiro_2014 <- str_count(atas2014, palavras_crescimento_costeiro) %>% sum()
+
+palavras_crescimento_costeiro_2015 <- str_count(atas2015, palavras_crescimento_costeiro) %>% sum()
+
+palavras_crescimento_costeiro_2016 <- str_count(atas2016, palavras_crescimento_costeiro) %>% sum()
+
+palavras_crescimento_costeiro_2017 <- str_count(atas2017, palavras_crescimento_costeiro) %>% sum()
+
+palavras_crescimento_costeiro_2018 <- str_count(atas2018, palavras_crescimento_costeiro) %>% sum()
+
+
+#palavras atividade_petrolifera
+
+palavras_atividade_petrolifera_2009 <- str_count(atas2009, palavras_atividade_petrolifera) %>% sum()
+
+palavras_atividade_petrolifera_2010 <- str_count(atas2010, palavras_atividade_petrolifera) %>% sum()
+
+palavras_atividade_petrolifera_2011 <- str_count(atas2011, palavras_atividade_petrolifera) %>% sum()
+
+palavras_atividade_petrolifera_2012 <- str_count(atas2012, palavras_atividade_petrolifera) %>% sum()
+
+palavras_atividade_petrolifera_2013 <- str_count(atas2013, palavras_atividade_petrolifera) %>% sum()
+
+palavras_atividade_petrolifera_2014 <- str_count(atas2014, palavras_atividade_petrolifera) %>% sum()
+
+palavras_atividade_petrolifera_2015 <- str_count(atas2015, palavras_atividade_petrolifera) %>% sum()
+
+palavras_atividade_petrolifera_2016 <- str_count(atas2016, palavras_atividade_petrolifera) %>% sum()
+
+palavras_atividade_petrolifera_2017 <- str_count(atas2017, palavras_atividade_petrolifera) %>% sum()
+
+palavras_atividade_petrolifera_2018 <- str_count(atas2018, palavras_atividade_petrolifera) %>% sum()
+
+
+#palavras circulacao_de_embarcacoes
+
+palavras_circulacao_de_embarcacoes_2009 <- str_count(atas2009, palavras_circulacao_de_embarcacoes) %>% sum()
+
+palavras_circulacao_de_embarcacoes_2010 <- str_count(atas2010, palavras_circulacao_de_embarcacoes) %>% sum()
+
+palavras_circulacao_de_embarcacoes_2011 <- str_count(atas2011, palavras_circulacao_de_embarcacoes) %>% sum()
+
+palavras_circulacao_de_embarcacoes_2012 <- str_count(atas2012, palavras_circulacao_de_embarcacoes) %>% sum()
+
+palavras_circulacao_de_embarcacoes_2013 <- str_count(atas2013, palavras_circulacao_de_embarcacoes) %>% sum()
+
+palavras_circulacao_de_embarcacoes_2014 <- str_count(atas2014, palavras_circulacao_de_embarcacoes) %>% sum()
+
+palavras_circulacao_de_embarcacoes_2015 <- str_count(atas2015, palavras_circulacao_de_embarcacoes) %>% sum()
+
+palavras_circulacao_de_embarcacoes_2016 <- str_count(atas2016, palavras_circulacao_de_embarcacoes) %>% sum()
+
+palavras_circulacao_de_embarcacoes_2017 <- str_count(atas2017, palavras_circulacao_de_embarcacoes) %>% sum()
+
+palavras_circulacao_de_embarcacoes_2018 <- str_count(atas2018, palavras_circulacao_de_embarcacoes) %>% sum()
+
+
+
+#palavras vazamento_de_oleo
+
+palavras_vazamento_de_oleo_2009 <- str_count(atas2009, palavras_vazamento_de_oleo) %>% sum()
+
+palavras_vazamento_de_oleo_2010 <- str_count(atas2010, palavras_vazamento_de_oleo) %>% sum()
+
+palavras_vazamento_de_oleo_2011 <- str_count(atas2011, palavras_vazamento_de_oleo) %>% sum()
+
+palavras_vazamento_de_oleo_2012 <- str_count(atas2012, palavras_vazamento_de_oleo) %>% sum()
+
+palavras_vazamento_de_oleo_2013 <- str_count(atas2013, palavras_vazamento_de_oleo) %>% sum()
+
+palavras_vazamento_de_oleo_2014 <- str_count(atas2014, palavras_vazamento_de_oleo) %>% sum()
+
+palavras_vazamento_de_oleo_2015 <- str_count(atas2015, palavras_vazamento_de_oleo) %>% sum()
+
+palavras_vazamento_de_oleo_2016 <- str_count(atas2016, palavras_vazamento_de_oleo) %>% sum()
+
+palavras_vazamento_de_oleo_2017 <- str_count(atas2017, palavras_vazamento_de_oleo) %>% sum()
+
+palavras_vazamento_de_oleo_2018 <- str_count(atas2018, palavras_vazamento_de_oleo) %>% sum()
+
+#palavras pesca_predatoria
+
+palavras_pesca_predatoria_2009 <- str_count(atas2009, palavras_pesca_predatoria) %>% sum()
+
+palavras_pesca_predatoria_2010 <- str_count(atas2010, palavras_pesca_predatoria) %>% sum()
+
+palavras_pesca_predatoria_2011 <- str_count(atas2011, palavras_pesca_predatoria) %>% sum()
+
+palavras_pesca_predatoria_2012 <- str_count(atas2012, palavras_pesca_predatoria) %>% sum()
+
+palavras_pesca_predatoria_2013 <- str_count(atas2013, palavras_pesca_predatoria) %>% sum()
+
+palavras_pesca_predatoria_2014 <- str_count(atas2014, palavras_pesca_predatoria) %>% sum()
+
+palavras_pesca_predatoria_2015 <- str_count(atas2015, palavras_pesca_predatoria) %>% sum()
+
+palavras_pesca_predatoria_2016 <- str_count(atas2016, palavras_pesca_predatoria) %>% sum()
+
+palavras_pesca_predatoria_2017 <- str_count(atas2017, palavras_pesca_predatoria) %>% sum()
+
+
+palavras_pesca_predatoria_2018 <- str_count(atas2018, palavras_pesca_predatoria) %>% sum()
+
+#palavras setor_industrial
+
+palavras_setor_industrial_2009 <- str_count(atas2009, palavras_setor_industrial) %>% sum()
+
+palavras_setor_industrial_2010 <- str_count(atas2010, palavras_setor_industrial) %>% sum()
+
+palavras_setor_industrial_2011 <- str_count(atas2011, palavras_setor_industrial) %>% sum()
+
+palavras_setor_industrial_2012 <- str_count(atas2012, palavras_setor_industrial) %>% sum()
+
+palavras_setor_industrial_2013 <- str_count(atas2013, palavras_setor_industrial) %>% sum()
+
+palavras_setor_industrial_2014 <- str_count(atas2014, palavras_setor_industrial) %>% sum()
+
+palavras_setor_industrial_2015 <- str_count(atas2015, palavras_setor_industrial) %>% sum()
+
+palavras_setor_industrial_2016 <- str_count(atas2016, palavras_setor_industrial) %>% sum()
+
+palavras_setor_industrial_2017 <- str_count(atas2017, palavras_setor_industrial) %>% sum()
+
+palavras_setor_industrial_2018 <- str_count(atas2018, palavras_setor_industrial) %>% sum()
+
+#palavras populacao_flutuante
+
+palavras_populacao_flutuante_2009 <- str_count(atas2009, palavras_populacao_flutuante) %>% sum()
+
+palavras_populacao_flutuante_2010 <- str_count(atas2010, palavras_populacao_flutuante) %>% sum()
+
+palavras_populacao_flutuante_2011 <- str_count(atas2011, palavras_populacao_flutuante) %>% sum()
+
+palavras_populacao_flutuante_2012 <- str_count(atas2012, palavras_populacao_flutuante) %>% sum()
+
+palavras_populacao_flutuante_2013 <- str_count(atas2013, palavras_populacao_flutuante) %>% sum()
+
+palavras_populacao_flutuante_2014 <- str_count(atas2014, palavras_populacao_flutuante) %>% sum()
+
+palavras_populacao_flutuante_2015 <- str_count(atas2015, palavras_populacao_flutuante) %>% sum()
+
+palavras_populacao_flutuante_2016 <- str_count(atas2016, palavras_populacao_flutuante) %>% sum()
+
+palavras_populacao_flutuante_2017 <- str_count(atas2017, palavras_populacao_flutuante) %>% sum()
+
+palavras_populacao_flutuante_2018 <- str_count(atas2018, palavras_populacao_flutuante) %>% sum()
+
+#palavras ineficacia_de_gestao
+
+palavras_ineficacia_de_gestao_2009 <- str_count(atas2009, palavras_ineficacia_de_gestao) %>% sum()
+
+palavras_ineficacia_de_gestao_2010 <- str_count(atas2010, palavras_ineficacia_de_gestao) %>% sum()
+
+palavras_ineficacia_de_gestao_2011 <- str_count(atas2011, palavras_ineficacia_de_gestao) %>% sum()
+
+palavras_ineficacia_de_gestao_2012 <- str_count(atas2012, palavras_ineficacia_de_gestao) %>% sum()
+
+palavras_ineficacia_de_gestao_2013 <- str_count(atas2013, palavras_ineficacia_de_gestao) %>% sum()
+
+palavras_ineficacia_de_gestao_2014 <- str_count(atas2014, palavras_ineficacia_de_gestao) %>% sum()
+
+palavras_ineficacia_de_gestao_2015 <- str_count(atas2015, palavras_ineficacia_de_gestao) %>% sum()
+
+palavras_ineficacia_de_gestao_2016 <- str_count(atas2016, palavras_ineficacia_de_gestao) %>% sum()
+
+palavras_ineficacia_de_gestao_2017 <- str_count(atas2017, palavras_ineficacia_de_gestao) %>% sum()
+
+
+palavras_ineficacia_de_gestao_2018 <- str_count(atas2018, palavras_ineficacia_de_gestao) %>% sum()
+
+#palavras consciencia_ambiental
+
+palavras_consciencia_ambiental_2009 <- str_count(atas2009, palavras_consciencia_ambiental) %>% sum()
+
+palavras_consciencia_ambiental_2010 <- str_count(atas2010, palavras_consciencia_ambiental) %>% sum()
+
+palavras_consciencia_ambiental_2011 <- str_count(atas2011, palavras_consciencia_ambiental) %>% sum()
+
+palavras_consciencia_ambiental_2012 <- str_count(atas2012, palavras_consciencia_ambiental) %>% sum()
+
+palavras_consciencia_ambiental_2013 <- str_count(atas2013, palavras_consciencia_ambiental) %>% sum()
+
+palavras_consciencia_ambiental_2014 <- str_count(atas2014, palavras_consciencia_ambiental) %>% sum()
+
+palavras_consciencia_ambiental_2015 <- str_count(atas2015, palavras_consciencia_ambiental) %>% sum()
+
+palavras_consciencia_ambiental_2016 <- str_count(atas2016, palavras_consciencia_ambiental) %>% sum()
+
+palavras_consciencia_ambiental_2017 <- str_count(atas2017, palavras_consciencia_ambiental) %>% sum()
+
+palavras_consciencia_ambiental_2018 <- str_count(atas2018, palavras_consciencia_ambiental) %>% sum()
+```
+
+
+```{r}
+tabela <- tibble(
+  ano = c(rep(2009:2018,13)),
+  palavra = c(rep("Esgoto",10),rep("Clima",10),rep("Lixo",10),rep("Atividade portuária",10),rep("Crescimento costeiro",10),rep("Atividade petrolífera",10),rep("Circulação de embarcações",10),rep("Vazamento de óleo",10),rep("Pesca predatória",10),rep("Setor industrial",10),rep("População flutuante",10),rep("Ineficácia de gestão",10),rep("Consciência ambiental",10)
+              
+              ),
+  contagem = c(
+    #esgoto
+    palavras_esgoto_2009,palavras_esgoto_2010,palavras_esgoto_2011,palavras_esgoto_2012,palavras_esgoto_2013,palavras_esgoto_2014,palavras_esgoto_2015,palavras_esgoto_2016,palavras_esgoto_2017,palavras_esgoto_2018,
+    #clima
+    palavras_clima_2009,palavras_clima_2010,palavras_clima_2011,palavras_clima_2012,palavras_clima_2013,palavras_clima_2014,palavras_clima_2015,palavras_clima_2016,palavras_clima_2017,palavras_clima_2018,
+     #lixo
+    palavras_lixo_2009,palavras_lixo_2010,palavras_lixo_2011,palavras_lixo_2012,palavras_lixo_2013,palavras_lixo_2014,palavras_lixo_2015,palavras_lixo_2016,palavras_lixo_2017,palavras_lixo_2018,
+     #atividadesportuarias
+    palavras_atividadesportuarias_2009,palavras_atividadesportuarias_2010,palavras_atividadesportuarias_2011,palavras_atividadesportuarias_2012,palavras_atividadesportuarias_2013,palavras_atividadesportuarias_2014,palavras_atividadesportuarias_2015,palavras_atividadesportuarias_2016,palavras_atividadesportuarias_2017,
+    palavras_atividadesportuarias_2018,
+     #crescimento_costeiro
+    palavras_crescimento_costeiro_2009,palavras_crescimento_costeiro_2010,palavras_crescimento_costeiro_2011,palavras_crescimento_costeiro_2012,palavras_crescimento_costeiro_2013,palavras_crescimento_costeiro_2014,palavras_crescimento_costeiro_2015,palavras_crescimento_costeiro_2016,palavras_crescimento_costeiro_2017,
+    palavras_crescimento_costeiro_2018,
+        #atividade_petrolifera
+    palavras_atividade_petrolifera_2009,palavras_atividade_petrolifera_2010,palavras_atividade_petrolifera_2011,palavras_atividade_petrolifera_2012,palavras_atividade_petrolifera_2013,palavras_atividade_petrolifera_2014,palavras_atividade_petrolifera_2015,palavras_atividade_petrolifera_2016,palavras_atividade_petrolifera_2017,palavras_atividade_petrolifera_2018,
+    #circulacao_de_embarcacoes
+    palavras_circulacao_de_embarcacoes_2009,palavras_circulacao_de_embarcacoes_2010,palavras_circulacao_de_embarcacoes_2011,palavras_circulacao_de_embarcacoes_2012,palavras_circulacao_de_embarcacoes_2013,palavras_circulacao_de_embarcacoes_2014,palavras_circulacao_de_embarcacoes_2015,palavras_circulacao_de_embarcacoes_2016,palavras_circulacao_de_embarcacoes_2017,palavras_circulacao_de_embarcacoes_2018,
+     #vazamento_de_oleo
+    palavras_vazamento_de_oleo_2009,palavras_vazamento_de_oleo_2010,palavras_vazamento_de_oleo_2011,palavras_vazamento_de_oleo_2012,palavras_vazamento_de_oleo_2013,palavras_vazamento_de_oleo_2014,palavras_vazamento_de_oleo_2015,palavras_vazamento_de_oleo_2016,palavras_vazamento_de_oleo_2017,palavras_vazamento_de_oleo_2018,
+         #pesca_predatoria
+    palavras_pesca_predatoria_2009,palavras_pesca_predatoria_2010,palavras_pesca_predatoria_2011,palavras_pesca_predatoria_2012,palavras_pesca_predatoria_2013,palavras_pesca_predatoria_2014,palavras_pesca_predatoria_2015,palavras_pesca_predatoria_2016,palavras_pesca_predatoria_2017,palavras_pesca_predatoria_2018,
+            #setor_industrial
+    palavras_setor_industrial_2009,palavras_setor_industrial_2010,palavras_setor_industrial_2011,palavras_setor_industrial_2012,palavras_setor_industrial_2013,palavras_setor_industrial_2014,palavras_setor_industrial_2015,palavras_setor_industrial_2016,palavras_setor_industrial_2017,palavras_setor_industrial_2018,
+                #populacao_flutuante
+    palavras_populacao_flutuante_2009,palavras_populacao_flutuante_2010,palavras_populacao_flutuante_2011,palavras_populacao_flutuante_2012,palavras_populacao_flutuante_2013,palavras_populacao_flutuante_2014,palavras_populacao_flutuante_2015,palavras_populacao_flutuante_2016,palavras_populacao_flutuante_2017,palavras_populacao_flutuante_2018,
+                #ineficacia_de_gestao
+    palavras_ineficacia_de_gestao_2009,palavras_ineficacia_de_gestao_2010,palavras_ineficacia_de_gestao_2011,palavras_ineficacia_de_gestao_2012,palavras_ineficacia_de_gestao_2013,palavras_ineficacia_de_gestao_2014,palavras_ineficacia_de_gestao_2015,palavras_ineficacia_de_gestao_2016,palavras_ineficacia_de_gestao_2017,
+    palavras_ineficacia_de_gestao_2018,
+                   #consciencia_ambiental
+    palavras_consciencia_ambiental_2009,palavras_consciencia_ambiental_2010,palavras_consciencia_ambiental_2011,palavras_consciencia_ambiental_2012,palavras_consciencia_ambiental_2013,palavras_consciencia_ambiental_2014,palavras_consciencia_ambiental_2015,palavras_consciencia_ambiental_2016,palavras_consciencia_ambiental_2017,palavras_consciencia_ambiental_2018
+    )
+  )
+
+write_excel_csv2(tabela, path = "planilha_ameacas.csv")
+# tabela <- read.csv2("planilha_ameacas.csv")
+#str_c("palavras_esgoto_",2009:2017), str_c("palavras_clima_",2009:2017)
+```
+
+
+
+```{r}
+#ordem_fator <-c("Atividade petrolífera","Atividade portuária", "Circulação de embarcações","Vazamento de óleo","Esgoto", "Lixo", "População flutuante", "Consciência ambiental", "Clima", "Setor industrial", "Pesca predatória")
+#reorder(tabela$palavra, ordem_fator)
+#tabela$palavra <- factor(tabela$palavra, levels = tabela$palavra[order(ordem_fator)])
+
+tabela %>% 
+  filter (!palavra %in% c("Crescimento costeiro","Ineficácia de gestão")) %>% 
+  #levels(as.factor(tabela$palavra))
+  ggplot()+
+  geom_line(aes(x = ano, y = contagem), colour="black") +
+  scale_x_continuous(breaks = seq(2009, 2018, by = 2))+
+  #scale_y_continuous(breaks = seq(0, 265, by = 20))+
+  theme_minimal()+
+  labs(
+    y="Frequência das palavras", x= "Ano", title = "Ameaças identificadas nas Atas (2009-2018)")    +
+  theme(plot.title = element_text(hjust = 0.5), 
+  axis.text.x = element_text(angle = 90, hjust = 1))+
+  facet_wrap(~palavra, scales = "free_y",  labeller = label_wrap_gen(width=5))+
+
+ggsave("palavras_ameaca_todos.png", dpi = 600,   width = 8, height = 5)
+  
+```
+
+
+```{r}
+tabela %>% 
+  filter (palavra %in% c("Atividade petrolífera","Atividade portuária", "Circulação de embarcações","Vazamento de óleo")) %>% 
+  ggplot(aes(x = ano, y = contagem, group=palavra))+
+  geom_line(aes(linetype=palavra, colour=palavra)) +
+  scale_x_continuous(breaks = seq(2009, 2018, by = 1))+
+
+  scale_y_continuous(breaks = seq(0, 265, by = 20))+
+  scale_linetype_manual(values=c("twodash", "longdash", "solid", "dashed"))+
+  theme_minimal()+
+  labs(
+    y="Frequência das palavras", x= "Ano", title = "Ameaças aos SE identificadas nas Atas (2009-2018)",
+    linetype="Ameaças", colour="Ameaças")+
+  theme(plot.title = element_text(hjust = 0.5))+
+    scale_linetype_manual(values=c("twodash", "dotted", "solid", "dashed"))+
+ggsave("palavras_ameaca_1.png", dpi = 600,   width = 8, height = 5)
+```
+
+```{r}
+tabela %>% 
+  filter (palavra %in% c("Esgoto", "Lixo", "População flutuante", "Consciência ambiental" )) %>% 
+  ggplot(aes(x = ano, y = contagem, group=palavra))+
+  geom_line(aes(linetype=palavra, colour=palavra)) +
+  scale_x_continuous(breaks = seq(2009, 2018, by = 1))+
+
+  scale_y_continuous(breaks = seq(0, 100, by = 5))+
+  scale_linetype_manual(values=c("twodash", "longdash", "solid", "dashed"))+
+  theme_minimal()+
+  labs(
+    y="Frequência das palavras", x= "Ano", title = "Ameaças aos SE identificadas nas Atas (2009-2018)",
+    linetype="Ameaças", colour="Ameaças")+
+  theme(plot.title = element_text(hjust = 0.5))+
+    scale_linetype_manual(values=c("twodash", "dotted", "solid", "dashed"))+
+ggsave("palavras_ameacas_2.png", dpi = 600,   width = 8, height = 5)
+```
+
+```{r}
+tabela %>% 
+  filter (palavra %in% c("Clima", "Setor industrial", "Pesca predatória")) %>% 
+  ggplot(aes(x = ano, y = contagem, group=palavra))+
+  geom_line(aes(linetype=palavra, colour=palavra)) +
+  scale_x_continuous(breaks = seq(2009, 2018, by = 1))+
+
+  scale_y_continuous(breaks = seq(0, 100, by = 2))+
+  scale_linetype_manual(values=c("twodash", "longdash", "solid", "dashed"))+
+  theme_minimal()+
+  labs(
+    y="Frequência das palavras", x= "Ano", title = "Ameaças aos SE identificadas nas Atas (2009-2018)",
+    linetype="Ameaças", colour="Ameaças")+
+  theme(plot.title = element_text(hjust = 0.5))+
+    scale_linetype_manual(values=c("twodash", "dotted", "solid", "dashed"))+
+ggsave("palavras_ameacas_3.png", dpi = 600,   width = 8, height = 5)
+```

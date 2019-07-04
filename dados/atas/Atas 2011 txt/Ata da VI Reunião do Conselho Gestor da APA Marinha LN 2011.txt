@@ -1,0 +1,191 @@
+A reunião iniciou às 14h40min.
+? Lucila iniciou a reunião agradecendo a presença de todos. E comunicou que
+devido ao fato de ainda termos apenas 8 conselheiros presentes, de acordo
+com o regimento interno do Conselho Gestor da APA marinha LN e ARIE SS
+a reunião poderia se iniciar, porém nenhuma decisão poderia ser votada.
+
+Sendo assim pediu para Kelen Leite apresentar o Plano de Manejo da ESEC
+Tupinambás e disse que depois retomaria a pauta da reunião para fazer a
+aprovação da ata quando tivesse quórum.
+? Kelen agradeceu a oportunidade de apresentar as ações do Plano de Manejo
+da ESEC. Iniciou seu discurso dizendo que a principal diretriz passada aos
+pesquisadores parceiros seria que a devolutiva dos estudos e análises
+deveriam ser sempre georreferenciadas, como medida a construção de um
+banco de dados futuros da Unidade de Conservação, essa ação norteará a
+gestão do Plano de Manejo. A primeira expedição de pesquisa foi realizada
+no inicio do mês na Ilha de Cabras e Ilha de Palmas com parceria do Parque
+Estadual da Ilha Anchieta. Um rápido diagnóstico está sendo traçado, mas
+ainda faltam alguns levantamentos que não puderam ser realizados nesta
+etapa. De uma forma geral os estudos estão sendo realizados através de
+uma Analise Estratégica Rápida, em função do pouco tempo disponível para a
+execução do Plano. Como medidas para este formato de obtenção de dados,
+a equipe realiza reuniões antes, durante, e depois das expedições, podendo
+reavaliar o processo durante todo o momento, através de perguntas
+norteadoras, integração entre as equipes e compatibilização de logística.
+Algumas espécies alvo tem sido estudadas pela sua importância ecológica,
+peculiaridade, ou pela possível ameaça que a espécie pode representar, como
+o capim gordura por propagar o fogo com facilidade. Outras espécies que
+podem ser citadas como importantes na pesquisa são as invasoras, as
+pererecas endêmicas, os ninhais em árvores que podem ser suscetíveis à
+visitação, e os teiús na Ilha de Palmas, uma vez que nesta ilha existe pouca
+proteína animal para sua alimentação. Neste caso será realizada uma análise
+de conteúdo estomacal para melhorar a qualidade das conclusões. A
+expedição para o arquipélago de Alcatrazes está prevista para o início de
+outubro, após a abertura de trilhas na ilha principal. Esta força tarefa está
+condicionada ao alto relevo, que inclui grandes rochas. Foram identificados
+28 pontos com suas respectivas coordenadas geográficas ao longo das
+trilhas abertas.
+
+? Lucila questionou o prazo de execução do Plano de Manejo, pois lembrou que
+a UC está passando por um processo de mudança de categoria, que vai em
+breve ser considerada Parque Nacional Marinho.
+? Kelen respondeu que ainda existe o prazo de um ano até a execução do Plano
+de Manejo, e que todas as informações coletadas neste momento serão
+utilizadas na incorporação do Plano do Parque Marinho. Ressaltou ainda que
+devido a alteração de categoria, eles também estão trabalhando nos
+programas de Uso Público e Sócio-ambiental.
+? Ingo questionou se o sistema de coordenadas WGS84 utilizado é padrão
+para todo georreferenciamento.
+? Kelen afirmou que este tem sido o padrão utilizado dentro do ICMBIO por
+ser internacional, mas que existem outros.
+? Shida (Fundação Florestal) complementou dizendo que o banco de dados da
+Fundação está todo em SAD69.
+? Lucila relembrou que um problema encontrado durante a fiscalização
+(PREPS). Dependendo do Datum aplicado o ponto encontra-se fora da
+marcação adequada.
+? Ingo disse que sofre com este problema na maricultura por falta de
+padronização nacional ou estadual.
+? Kelen relembrou que WGS84 é mundial. E disse ainda que as conversões são
+possíveis, porém dependem de um programa específico para realizá-las
+antes de serem descarregadas do GPS.
+? Lucila informou que temos apenas 12 conselheiros presentes, e que desta
+forma ainda não teríamos quórum para aprovação da ata anterior e
+discussão dos GTs. Em seguida passou a palavra para Carolina Bio Poletto
+para apresentação do Plano de Manejo do PEIb.
+
+? Carolina, agradecendo a oportunidade, acordou com os presentes que iria
+focar a explanação do plano na Zona de Amortecimento do PEIb, por estar
+dentro do perímetro de atuação da APA Marinha LN. Iniciou dizendo que o
+processo de execução do Plano de Manejo do PEIb teve como premissa
+básica a participação, uma vez que todo o entorno do Parque faz divisa com
+o município de Ilhabela. Desta forma foram realizadas 28 oficinas
+participativas, incluindo oficinas nas comunidades tradicionais. Explicou que
+os Programas de Gestão são ordenados pelos temas de gestão da UC e que
+foram estabelecidos tendo em vista as prioridades de ações de cada um.
+Carolina explicou ainda que o zoneamento da Unidade nada mais é do que a
+determinação de usos do espaço, ou seja, dependendo da zona do Parque que
+você se encontra estará apto ou não a realizar atividades específicas. Como
+o foco de apresentação no Conselho Gestor da APA Marinha LN é a parte
+marítima de interface com o PEIb, que é o setor Maembipi, somente será
+apresentado o que se refere a Zona de amortecimento, que é o espaço onde
+se tem competência para sugerir ações, mas o arquivo na integra (500
+páginas) do Plano de Manejo estará disponível no Escritório Regional da
+Fundação Florestal. Além da descrição das recomendações para a Zona de
+Amortecimento, foi feita uma compilação das legislações vigentes para a
+área, a fim de determinar os usos não permitidos no espaço. Desta forma,
+no que se refere a parte marinha foram estabelecidos 5 setores: Setor de
+Conservação Marinha, Setor entorno das Ilhas, Setor Oceânico, Setor da
+Bahia de Castelhanos (1 e 2), e Setor Canal (1 e 2). De maneira geral, o
+Setor de Conservação Marinha inclui do santuário ecológico (ilha das
+cabras) até o portinho; o Setor entorno das Ilhas inclui um perímetro de
+200 metros nas ilhas Codó, Vitória, Figueira e Búzios e cerca de 50 metros
+nas outras Ilha; o Setor Oceânico coincide com o setor Maembipi da APA
+Marinha LN; o Setor da Bahia de Castelhanos se divide em 1 e 2, sendo o
+primeiro coincidente com o zoneamento Z2ME do gerenciamento costeiro e
+SBC (??) 2 foi um pedido de inclusão da comunidade. O Setor do Canal
+também se divide em duas zonas que incluem a área do porto expandido de
+São Sebastião. Os usos e recomendações de cada zona foram apresentados.
+
+? Ramirez questionou sobre a proibição de pesca subaquática no setor de
+Conservação Marinha.
+? Carolina disse que o Plano de Manejo pode somente fazer recomendação em
+sua Zona de Amortecimento.
+? Shida ainda esclareceu que esta foi uma das demandas da comunidade local.
+? Ramirez sugeriu alteração do texto para pesca submarina, e questionou
+sobre os resíduos de limpeza de peixe.
+? Carolina disse que esta também foi uma demanda da comunidade, que
+argumentam que os resíduos de peixe espantam os cardumes, e que eles
+próprios armazenam seus resíduos em local especifico.
+? Turra sugeriu alteração no texto do Plano de Manejo, uma vez que é zona de
+amortecimento e só podem ser feitas sugestões e recomendações e
+portanto não está correto utilizar “Usos e atividades não permitidos”,
+sugestão que foi incorporada por Carolina.
+? Shida acrescentou que algumas das atividades postas como não permitidas
+são compilações de legislações vigentes, como o Zoneamento Ecológico
+Econômico.
+? Ulisses questionou a posição do Plano de Manejo do PEIb se a ZEE e as
+outras legislações forem alteradas.
+? Carolina disse que prevendo a revisão do GERCO e a revisão do Plano
+Diretor do município de Ilhabela, tem uma inscrição no texto que diz
+explicitamente que as mudanças nas legislações serão incorporadas no Plano
+de Manejo, bem como na Zona de Amortecimento.
+? Mara solicitou que a Carolina disponibilizasse essa apresentação.
+? Lucila informou que iríamos anexar à ata de hoje.
+
+? Ulisses questionou sobre a possibilidade de realização de Manejo Florestal
+dentro da UC.
+? Carolina esclareceu que isso é possível dentro do micro zoneamento das
+comunidades.
+? Ingo fez questionamento sobre cultivo de espécies exóticas, como é o caso
+da alga Kappa Phicus.
+? Cláudio do CEBIMAR afirmou que o conceito de exótico ainda é muito
+discutível na comunidade cientifica, que no caso de mexilhões por exemplo,
+ele pode ser considerado exótico uma vez que através de datação de
+sambaquis não foi identificado nenhum exemplar da espécie.
+? Turra coloca que o cultivo de exóticas deve estar regrada em consonância
+com a UC, e as determinações do IBAMA, que é o órgão responsável.
+? Lucila esclareceu que Unidades de Conservação de Proteção Integral não
+podem ter cultivos de exóticas, mas no caso de Unidades de Conservação de
+Uso Sustentável ainda não foram estabelecidas nenhuma diretriz, exceto a
+Kappa Phycus, que tem normativa específica que proibe seu cultivo em UCs.
+? Carolina perguntou se deve alterar o texto do Plano de Manejo.
+? Ulisses disse que poderia passar a frase cultivo de espécies exóticas para
+recomendação.
+? Carolina fez a mudança sugerida por Ulisses.
+? Lucila agradeceu a Carolina e parabenizou a equipe do PEIb, dizendo que iria
+formalizar as decisões em ata. Como ainda não existe quórum relembrou que
+as atas ficariam em aberto para serem aprovadas na próxima reunião. E
+lembrou que as pessoas se inscreveram formalmente para participar dos
+GTs, e disse que levará as listas na próxima reunião. Convidou a todos a
+participarem do GT ARIE São Sebastião que estará em formação na
+próxima reunião, dizendo que as dinâmicas de reunião podem ser
+
+estabelecidas de acordo com o perfil do grupo. Explicou ainda que Existe
+um grupo pensando no Gerenciamento Costeiro da região
+? Mara anunciou que haverá reunião do grupo setorial de contestação do
+GERCO no dia 20/09 as 9 horas na marina Igararecê.
+? Lucila apontou que a pesca foi um dos seguimentos que ainda não se
+manifestou quanto ao gerenciamento e que este tema deve ser abordado no
+CT Pesca. Informou ainda que a Fundação Florestal escreveu um parecer
+para se manifestar sobre o processo de licenciamento do Pré-Sal e
+encaminhou a SMA para ser encaminhada ao IBAMA juntamente com o
+parecer do Conselho Gestor da APA Marinha LN. Informou ainda que a
+reunião setorial com a PETROBRAS em Caraguatatuba que iria ocorrer no
+dia de hoje foi cancelada, informando que esteve presente na reunião em
+São Sebastião. Na ocasião a PETROBRAS informou que um novo EIA/RIMA
+está sendo elaborado, que incluem os outros 3 municípios do Litoral Norte
+como área de influência, porém como é complementação do processo
+anterior não haverão novas audiências públicas. E após o término deste novo
+EIA/RIMA a ESEC Tupinambás será formalmente convocada a manifestar
+seu parecer para incorporar no processo, desta forma temos como
+encaminhar ao Conselho da ESEC novas considerações no processo para
+serem submetidos à aprovação, e ficou claro que a PETROBRAS irá incluir
+novas condicionantes se o IBAMA exigir.
+A reunião encerrou as 17:20
+Data da próxima reunião do CG: 20 de outubro. Ainda sem local definido.
+Informes:
+? 17/09 – Dia Mundial de Limpeza de rios e praias
+
+? 19/09 – Reunião PETROBRAS devolutiva Pré Sal – Ubatuba
+? 20/09 – Reunião do grupo setorial de contestação GERCO
+? 21 a 25/09 – Brasil Surf Pro
+? 29/09 – Reunião do Mosaico Bocaina
+? 03/10 – Reunião GT Maricultura
+? 10/10 – Reunião GT Embarcações – 14h – Caraguatatuba
+? 18/10 – Oficina de Turismo CEDS em São Sebastião
+? 20/10 – Reunião Câmara Temática de Pesca - 9h
+? 20/10 – Reunião Conselho Gestor APA Marinha Litoral Norte -
+14h
+Esta ATA foi lavrada por Débora Gutierrez, secretaria executiva do Conselho
+Gestor da APA Marinha LN e assinada por Lucila Pinsard Vianna, Gestora dessa
+Unidade de Conservação de Uso Sustentável.

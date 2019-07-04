@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1545142081163.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "787E0F7E",
+    "lastKnownWriteTime" : 1545141455,
+    "last_content_update" : 1545142081163,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "E89773",
+        "caption" : "atasANO",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=atasANO&cache_key=E89773",
+        "displayedObservations" : "2",
+        "environment" : "",
+        "object" : "atasANO",
+        "preview" : "0",
+        "totalObservations" : "2",
+        "variables" : "1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
