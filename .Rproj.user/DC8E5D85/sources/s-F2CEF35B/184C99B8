@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "1501651484",
     "id" : "184C99B8",
-    "lastKnownWriteTime" : 1562262247,
-    "last_content_update" : 1562262247381,
+    "lastKnownWriteTime" : 1562262743,
+    "last_content_update" : 1562262743848,
     "path" : "~/GitHub/analisedocumentos_atas_APAMLN/noticias/grafico noticias.R",
     "project_path" : "noticias/grafico noticias.R",
     "properties" : {
-        "cursorPosition" : "9,7",
+        "cursorPosition" : "9,5",
         "scrollLine" : "7"
     },
     "relative_order" : 4,

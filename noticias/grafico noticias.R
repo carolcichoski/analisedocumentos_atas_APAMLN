@@ -14,10 +14,11 @@ p <- noticias %>%
   geom_bar(stat = "identity", position = "stack")+
 coord_flip() +
   theme_minimal()+
-  labs(y="Frequência das palavras", x= "Palavras", 
-       title = "Notícias citando Ameaças - Jan/2015 a Mai/2019")+
+  labs(y="Número de Noticías", x= "Ameaças", 
+       title = "Noticías citando Ameaças - Jan/2015 a Mai/2019")+
   theme(plot.title = element_text(hjust = 0.5),
-        text=element_text(size=12,  family="Times New Roman"))+ scale_fill_distiller(palette = "Dark2")
-
+        text=element_text(size=12,  family="Times New Roman"))+
+  scale_fill_distiller(palette = "Paired")+
+scale_y_continuous(breaks = seq(0, 450, by = 30))
 
 plotly::ggplotly(p)
