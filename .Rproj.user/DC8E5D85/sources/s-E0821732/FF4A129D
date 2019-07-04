@@ -7,13 +7,13 @@
     "folds" : "",
     "hash" : "0",
     "id" : "FF4A129D",
-    "lastKnownWriteTime" : 1562262743,
-    "last_content_update" : 1562263156543,
+    "lastKnownWriteTime" : 1562263483,
+    "last_content_update" : 1562264684293,
     "path" : "~/GitHub/analisedocumentos_atas_APAMLN/noticias/grafico noticias.R",
     "project_path" : "noticias/grafico noticias.R",
     "properties" : {
-        "cursorPosition" : "9,5",
-        "scrollLine" : "5"
+        "cursorPosition" : "19,11",
+        "scrollLine" : "7"
     },
     "relative_order" : 3,
     "source_on_save" : false,
