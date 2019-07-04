@@ -1,22 +1,21 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1562266845030.000,
-    "dirty" : false,
+    "created" : 1562281840855.000,
+    "dirty" : true,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1346002697",
-    "id" : "29591F8C",
+    "hash" : "0",
+    "id" : "EC0859FC",
     "lastKnownWriteTime" : 1562273310,
-    "last_content_update" : 1562273310375,
+    "last_content_update" : 1562283543948,
     "path" : "~/GitHub/analisedocumentos_atas_APAMLN/saliencia/grafico_ameacas.R",
-    "project_path" : "saliencia/grafico_ameacas.R",
+    "project_path" : null,
     "properties" : {
-        "cursorPosition" : "18,62",
-        "scrollLine" : "2",
-        "tempName" : "Untitled1"
+        "cursorPosition" : "12,0",
+        "scrollLine" : "3"
     },
-    "relative_order" : 5,
+    "relative_order" : 2,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"

@@ -1,0 +1,6 @@
+DT::datatable(iris[1:20, c(5, 1:4)], rownames = FALSE
+install.packages("devtools")
+library(devtools)                            
+devtools::install_github("renkun-ken/formattable")
+              suppressMessages(library(formattable))
+              

@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562281936290.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A56EDF06",
+    "lastKnownWriteTime" : 25896050050728051,
+    "last_content_update" : 1562281936290,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "A5FA50C3",
+        "caption" : "ameacas",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=ameacas&cache_key=A5FA50C3",
+        "displayedObservations" : 14,
+        "environment" : "",
+        "object" : "ameacas",
+        "preview" : 0,
+        "totalObservations" : 14,
+        "variables" : 2
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

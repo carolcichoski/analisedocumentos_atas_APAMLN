@@ -1,9 +1,13 @@
 library(readr)
-ameacas <- read_delim("saliencia/ameacas.csv", 
+library(tidyverse)
+ameacas <- read_delim("~/GitHub/analisedocumentos_atas_APAMLN/saliencia/ameacas.csv", 
                       ";", escape_double = FALSE, locale = locale(encoding = "ISO-8859-1"), 
                       trim_ws = TRUE)
 View(ameacas)
 
+ameacas1 <- as.numeric(ameacas$indice)
+
+view(ameacas1)
 
 
 #GRAFICO QUE DEU MAIS CERTO
@@ -14,8 +18,14 @@ ameacas %>%
   theme_minimal()+
   labs(X ="Ameaças", Y= "Índice de Saliência", 
        title = "Gráfico da Saliência das Ameaças Percebidas")+
-  scale_fill_distiller(palette = "Paired")+
-  theme(plot.title = element_text(hjust = 0.5),
+  scale_x_discrete()
+  
+  
+  
+  
+  
+  
+    #theme(plot.title = element_text(hjust = 0.5)+
         text=element_text(size=12,  family="Times New Roman"))
   
  

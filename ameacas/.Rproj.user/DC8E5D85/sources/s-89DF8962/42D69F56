@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562280299254.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "42D69F56",
+    "lastKnownWriteTime" : 1562253290,
+    "last_content_update" : 1562253290,
+    "path" : "~/GitHub/analisedocumentos_atas_APAMLN/ameacas/analises.Rmd",
+    "project_path" : "analises.Rmd",
+    "properties" : {
+        "cursorPosition" : "494,0",
+        "scrollLine" : "484"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

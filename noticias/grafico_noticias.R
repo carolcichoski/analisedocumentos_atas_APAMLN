@@ -19,10 +19,9 @@ p <- noticias %>%
   theme(plot.title = element_text(hjust = 0.5),
         text=element_text(size=12,  family="Times New Roman"))+
   scale_fill_distiller(palette = "Paired")+
-  scale_y_continuous(breaks = seq(0, 440, by = 40)+
-  ggsave("grafico_noticias6.png", dpi = 600,   width = 10, height = 5))
+  scale_y_continuous(breaks = seq(0, 440, by = 40))
 
-#ggsave("grafico_noticias4.png", dpi = 600,   width = 8, height = 5))
+
 
 
 
