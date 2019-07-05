@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "3902387172",
     "id" : "C871B837",
-    "lastKnownWriteTime" : 1562303305,
-    "last_content_update" : 1562303305405,
+    "lastKnownWriteTime" : 1562306616,
+    "last_content_update" : 1562306616502,
     "path" : "~/GitHub/analisedocumentos_atas_APAMLN/saliencia/grafico_ameacas_ultimatent.R",
     "project_path" : null,
     "properties" : {
-        "cursorPosition" : "10,17",
-        "scrollLine" : "6"
+        "cursorPosition" : "10,0",
+        "scrollLine" : "9"
     },
     "relative_order" : 4,
     "source_on_save" : false,

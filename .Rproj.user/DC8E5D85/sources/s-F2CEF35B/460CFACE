@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3972740204",
+    "hash" : "0",
     "id" : "460CFACE",
-    "lastKnownWriteTime" : 1562283861,
-    "last_content_update" : 1562283861079,
+    "lastKnownWriteTime" : 1562306631,
+    "last_content_update" : 1562306631,
     "path" : "~/GitHub/analisedocumentos_atas_APAMLN/saliencia/grafico_ importancia.R",
     "project_path" : "saliencia/grafico_ importancia.R",
     "properties" : {
-        "cursorPosition" : "13,0",
-        "scrollLine" : "7"
+        "cursorPosition" : "25,76",
+        "scrollLine" : "15"
     },
     "relative_order" : 3,
     "source_on_save" : false,

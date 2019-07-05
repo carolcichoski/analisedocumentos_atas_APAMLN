@@ -16,10 +16,15 @@ ameacas_ponto %>%
   coord_flip() +
   theme_minimal()+
   labs(y="Índice de Saliência", x= "Ameaças",
-       title = "Gráfico do Índice de Saliência das Ameaças")+
+       title = "Gráfico do Índice de Saliência e Frequência das Ameaças")+
   theme(plot.title = element_text(hjust = 0.5),
         text=element_text(size=12,  family="Times New Roman"))+
+     scale_fill_distiller(palette = "Set1")
+  
   scale_fill_distiller(palette = "Paired")
+    
+   # scale_colour_brewer(discrete_scale(), type = "seq", palette = 1, #direction = 1, aesthetics = "Dark2")
+  
 
 
 
