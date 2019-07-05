@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562298790061.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "213BA814",
+    "lastKnownWriteTime" : 7021781869995715695,
+    "last_content_update" : 1562298790061,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "8FC0CC5C",
+        "caption" : "enquadramento",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=enquadramento&cache_key=8FC0CC5C",
+        "displayedObservations" : "18",
+        "environment" : "",
+        "object" : "enquadramento",
+        "preview" : "0",
+        "totalObservations" : "18",
+        "variables" : "3"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

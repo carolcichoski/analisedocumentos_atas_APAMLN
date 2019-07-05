@@ -1,0 +1,22 @@
+categoria;se;importancia;is
+Serviço de Provisão;Provisão de alimento;Econômica;0,699
+Serviço de Provisão;Provisão de alimento;Sociocultural;0,796
+Serviço de Provisão;Provisão de alimento;Ambiental Ecológica;0,505
+Serviço de Provisão;Patrimônio Cultural;Econômica;0,645
+Serviço de Provisão;Patrimônio Cultural;Sociocultural;0,839
+Serviço de Provisão;Patrimônio Cultural;Ambiental Ecológica;0,387
+Serviço Cultural;Lazer e Recreação;Econômica;0,871
+Serviço Cultural;Lazer e Recreação;Sociocultural;0,742
+Serviço Cultural;Lazer e Recreação;Ambiental Ecológica;0,387
+Serviço Cultural;Beleza Cênica;Econômica;0,611
+Serviço Cultural;Beleza Cênica;Sociocultural;0,844
+Serviço Cultural;Beleza Cênica;Ambiental Ecológica;0,544
+Serviço de Regulação;Regulação Climátia;Econômica;0,591
+Serviço de Regulação;Regulação Climátia;Sociocultural;0,629
+Serviço de Regulação;Regulação Climátia;Ambiental Ecológica;0,731
+Serviço de Regulação;Depuração de Efluentes;Econômica;0,554
+Serviço de Regulação;Depuração de Efluentes;Sociocultural;0,618
+Serviço de Regulação;Depuração de Efluentes;Ambiental Ecológica;0,739
+Serviço de Regulação;Prevenção de inundações e enchentes;Econômica;0,634
+Serviço de Regulação;Prevenção de inundações e enchentes;Sociocultural;0,71
+Serviço de Regulação;Prevenção de inundações e enchentes;Ambiental Ecológica;0,559

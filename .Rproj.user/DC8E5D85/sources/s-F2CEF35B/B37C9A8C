@@ -2,18 +2,18 @@
     "collab_server" : "",
     "contents" : "",
     "created" : 1562280075287.000,
-    "dirty" : true,
+    "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
     "id" : "B37C9A8C",
-    "lastKnownWriteTime" : 1562285317,
-    "last_content_update" : 1562285630715,
+    "lastKnownWriteTime" : 1562298695,
+    "last_content_update" : 1562298695515,
     "path" : "~/GitHub/analisedocumentos_atas_APAMLN/noticias/grafico_noticias_mudanças climáticas.R",
     "project_path" : "noticias/grafico_noticias_mudanças climáticas.R",
     "properties" : {
-        "cursorPosition" : "10,5",
-        "scrollLine" : "4"
+        "cursorPosition" : "20,62",
+        "scrollLine" : "13"
     },
     "relative_order" : 3,
     "source_on_save" : false,
