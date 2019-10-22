@@ -34,7 +34,7 @@ noticias %>%
   scale_fill_distiller(palette = "Paired", guide = "legend") +
   scale_y_continuous(breaks = seq(0, 450, by = 50)) +
   ggsave(
-    "noticias/grafico_noticias.jpg",
+    "graficos_defesa/grafico_noticias.jpg",
     dpi = 600,
     height = 8,
     width = 12
