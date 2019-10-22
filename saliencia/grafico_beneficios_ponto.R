@@ -32,7 +32,7 @@ beneficios_ponto %>%
   ) +
   scale_fill_distiller(palette = "Paired", guide = "legend") +
   ggsave(
-    "saliencia/grafico_beneficios_ponto.jpg",
+    "graficos_defesa/grafico_beneficios_ponto.jpg",
     dpi = 600,
     height = 8,
     width = 12
